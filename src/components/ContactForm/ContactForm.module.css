@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 3px;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 250px;
+  gap: 20px;
+  padding: 20px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.inputLabel {
+  font-size: 18px;
+}
+
+.inputItem {
+  height: 24px;
+  border: 1px solid grey;
+  border-radius: 3px;
+  font-size: 14px;
+  color: black;
+  outline: transparent;
+  padding: 5px;
+}
+
+.inputItem:focus {
+  border: 1.8px solid black;
+}
+
+.btn {
+  border: 1px solid black;
+  border-radius: 3px;
+  background-color: white;
+  max-width: 115px;
+  height: 30px;
+  font-size: 17px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  color: blue;
+  border: 2px solid blue;
+}
+
+.error {
+  color: rgb(230, 67, 67);
+  font-size: 15px;
+}

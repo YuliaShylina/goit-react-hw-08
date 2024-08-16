@@ -1,0 +1,16 @@
+.logContainer {
+  display: flex;
+  width: 100%;
+  gap: 30px;
+  justify-content: flex-end;
+}
+.link {
+  color: black;
+  font-size: 20px;
+}
+
+.active,
+.link:hover {
+  text-decoration: underline;
+  color: blue;
+}

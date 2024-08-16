@@ -1,0 +1,7 @@
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.liElement {
+  margin-right: 50px;
+}

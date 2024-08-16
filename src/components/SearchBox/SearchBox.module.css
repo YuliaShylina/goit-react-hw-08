@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  gap: 100px;
+}
+
+.txt {
+  font-size: 19px;
+  margin-bottom: 5px;
+}
+
+.input {
+  min-width: 220px;
+  margin-bottom: 50px;
+  height: 24px;
+  border: 1px solid grey;
+  border-radius: 3px;
+  font-size: 14px;
+  color: blue;
+  outline: transparent;
+  padding: 5px;
+}
+
+.input:focus {
+  border: 1.8px solid black;
+}

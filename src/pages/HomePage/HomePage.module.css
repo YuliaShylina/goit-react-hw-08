@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-top: 50px;
+  gap: 50px;
+  align-items: center;
+}
+
+.backgroundImage {
+  background-image: url("./assets/background.jpg"); /* Шлях до зображення */
+  background-size: cover; /* Щоб картинка займала весь елемент */
+  background-position: center; /* Центрування картинки */
+  background-repeat: no-repeat; /* Щоб картинка не повторювалася */
+  padding: 10px; /* Додайте трохи відступів для кращого вигляду */
+  border-radius: 4px; /* Округлення кутів (опційно) */
+  color: white; /* Колір тексту, щоб було добре видно на фоні (опційно) */
+}
+
+.txt {
+  display: flex;
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.logTxt {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.logTxt:hover,
+.logTxt:active {
+  text-decoration: underline;
+  color: blue;
+}
